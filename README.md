@@ -46,9 +46,9 @@ yarn tsc --init --rootDir ./ --outDir ./dist --esModuleInterop --lib ES2019 --mo
 
 Add the following scripts to package.json, make the neccesary adjustments depending on your project structure:
 ```bash
-"spl_init": "ts-node ./nft_image.ts",
-"spl_metadata": "ts-node ./nft_metadata.ts",
-"spl_mint": "ts-node ./nft_mint.ts"
+"spl_init": "ts-node ./spl_init.ts",
+"spl_metadata": "ts-node ./spl_metadata.ts",
+"spl_mint": "ts-node ./spl_mint.ts"
 
 ```
 
